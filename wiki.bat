@@ -1,0 +1,1 @@
+@pyw C:\Users\%USERNAME%\AppData\Local\Programs\Python\Python38-32\wiki.py %*
