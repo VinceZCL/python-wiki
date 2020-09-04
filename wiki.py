@@ -9,8 +9,8 @@ if len(sys.argv) == 1:
     wiki_url = url + "Main_Page"
 
 elif len(sys.argv) > 1:
-    search = "_".join(sys.argv[1:])
-    wiki_url = url + search
-    print(wiki_url)
+	args = [arg.capitalize() for arg in sys.argv[1:]]
+	search = "_".join(args)
+	wiki_url = url + search
 
 webbrowser.open(wiki_url)
